@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-size: 15px;
+    background-color: #F4F4F4;
+}
+
+a {
+    text-decoration: none;
+    color: #FF5B00;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.btn {
+    background-color: #FF5B00;
+    border: 4px solid #FF5B00;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #FFFFFF;
+}

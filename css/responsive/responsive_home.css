@@ -1,0 +1,34 @@
+@media screen and (min-width: 900px) {
+    #menu {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    #menu-icon {
+        display: none !important;
+    }
+
+    #menu-items {
+        width: 100%;
+        display: flex !important;
+        flex-flow: row !important;
+        align-items: center !important;
+        position: relative !important;
+        right: 0 !important;
+        background-color: transparent !important;
+        margin-top: 0 !important;
+    }
+
+    #home-area {
+        flex-direction: row !important;
+    }
+
+    #home-right img:first-child {
+        width: 100%;
+    }
+
+    #home-right img:last-child {
+        width: 80px;
+        margin: -45px 0 50px 375px;
+    }
+}

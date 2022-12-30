@@ -1,0 +1,106 @@
+@media screen and (min-width: 900px) and (max-width: 1179px) {
+    #pizza-list {
+        flex-direction: row !important;
+    }
+
+    .pizza-list-title {
+        border-bottom: none !important;
+        border-right: 10px solid #FF5B00;
+        transform: skew(-25deg) translate(48px) !important;
+        width: 92%;
+        padding-right: 48px !important;
+    }
+ 
+    .pizza-list-title h2{
+        font-size: 42px !important;
+        transform: skew(25deg) translate(0px) !important;
+    }
+
+    .title-bird {
+        font-size: 65px !important;
+    }
+
+    .pizza-list-title img {
+        transform: skew(25deg) translatey(-40px) !important;
+    }
+
+    .pizza-list-items-menu {
+        width: 55% !important;
+        line-height: 45px !important;
+        margin-bottom: 70px !important;
+        transform: skew(-25deg, 0deg) !important;
+    }
+
+    .pizza-list-items-menu li {
+        transform: skew(25deg, 0deg);
+        margin-left: 10% !important;
+    }
+}
+
+@media screen and (min-width: 1180px) and (max-width: 1299px) {
+    #pizza-list {
+        flex-direction: row !important;
+    }
+
+    .pizza-list-title {
+        border-bottom: none !important;
+        border-right: 10px solid #FF5B00;
+        transform: skew(-25deg) translate(48px) !important;
+        width: 92%;
+        padding-right: 85px;
+    }
+ 
+    .pizza-list-title h2{
+        transform: skew(25deg) translate(0px) !important;
+    }
+
+    .pizza-list-title img {
+        transform: skew(25deg) translatey(-40px) !important;
+    }
+
+    .pizza-list-items-menu {
+        transform: skew(-25deg, 0deg) !important;
+    }
+
+    .pizza-list-items-menu li {
+        transform: skew(25deg, 0deg);
+        margin-left: 0 !important;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    #pizza-list {
+        flex-direction: row !important;
+    }
+
+    .pizza-list-title {
+        border-bottom: none !important;
+        border-right: 10px solid #FF5B00;
+        transform: skew(-25deg) translate(48px) !important;
+        width: 92%;
+        padding-right: 85px;
+    }
+
+    .pizza-list-title h2{
+        font-size: 65px !important;
+        transform: skew(25deg) translate(0px) !important;
+    }
+
+    .title-bird {
+        font-size: 95px !important;
+    }
+
+    .pizza-list-title img {
+        transform: skew(25deg) translatey(-40px) !important;
+    }
+
+    .pizza-list-items-menu {
+        font-size: 35px !important;
+        transform: skew(-25deg, 0deg) !important;
+    }
+
+    .pizza-list-items-menu li {
+        transform: skew(25deg, 0deg);
+        margin-left: -5%;
+    }
+}

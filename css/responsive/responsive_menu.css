@@ -1,0 +1,59 @@
+@media screen and (min-width:700px) and (max-width:1133px) {
+    .right h2 {
+        font-size: 120px !important;
+    }
+    
+    .pizza-price h4 {
+        font-size: 45px !important;
+    }
+
+    .pizza-price-info ul {
+        font-size: 27px !important;
+    }
+
+    .special-pizza h6 {
+        font-size: 35px !important;
+    }
+
+    .special-pizza p {
+        font-size: 20px !important;
+    }
+
+    .special-pizza-price h6 {
+        font-size: 35px !important;
+    }   
+}
+
+@media screen and (min-width:1134px) {
+    .left img {
+        width: 215px !important;
+    }
+
+    .right h2 {
+        font-size: 120px !important;
+    }
+
+    .pizza-menu-items {
+        flex-direction: row !important;
+    }
+    
+    .pizza-price h4 {
+        font-size: 45px !important;
+    }
+
+    .pizza-price-info ul {
+        font-size: 27px !important;
+    }
+
+    .special-pizza h6 {
+        font-size: 35px !important;
+    }
+
+    .special-pizza p {
+        font-size: 20px !important;
+    }
+
+    .special-pizza-price h6 {
+        font-size: 35px !important;
+    }   
+}

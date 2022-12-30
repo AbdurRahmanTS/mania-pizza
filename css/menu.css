@@ -1,0 +1,81 @@
+@import url("responsive/responsive_menu.css");
+
+#pizza-menu {
+    display: flex;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.left img {
+    width: 190px;
+}
+
+.right {
+    width: 100%;
+    text-align: center;
+}
+
+.right h2 {
+    font-family: 'Kaushan Script';
+    font-weight: 400;
+    font-size: 90px;
+}
+
+.pizza-menu-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.pizza-price {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.pizza-price h4 {
+    font-size: 28px;
+}
+
+.pizza-price-info {
+    font-family: 'Kosugi';
+    font-weight: 400;
+}
+
+.pizza-price-info h4 {
+    font-size: 28px;
+}
+
+.pizza-price-info ul {
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.pizza-price-info ul li {
+    list-style: none;
+}
+
+.special-pizza-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.special-pizza {
+    width: 50%;
+}
+
+.special-pizza h6 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.special-pizza p {
+    font-size: 15px;
+}
+
+.special-pizza-price h6 {
+    font-size: 20px;
+}
