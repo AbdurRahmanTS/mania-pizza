@@ -21,7 +21,7 @@
                         <img src="img/icon_menu.png" alt="Menu Icon">
                     </div>
                     <ul id="menu-items" style="display: none;">
-                        <li><a href="#">Home</a></li>
+                        <li><a href="/index.html">Home</a></li>
                         <li><a href="#pizza-menu">Menu</a></li>
                         <li><a href="#coupons">Specials & Coupons</a></li>
                         <li><a href="#contact">Contact Us</a></li>
@@ -48,7 +48,7 @@
     <main>
         <section id="pizza-menu">
             <div class="left">
-                <img src="img/part-of-pizza.png" alt="Half Pizza">
+                <img src="img/part_of_pizza.png" alt="Half Pizza">
             </div>
             <div class="right">
                 <h2 class="blaze-orange">Menu</h2>
@@ -93,7 +93,7 @@
                                 <h6>$ 19.99</h6>
                             </div>
                         </div>
-                        <div class="special-pizza-info">
+                        <div id="hidden-items-1" class="special-pizza-info" style="display: none;">
                             <div class="special-pizza">
                                 <h6>Classic pizza</h6>
                                 <p>Pizza comes with all tapping that you describe in this section</p>
@@ -102,7 +102,7 @@
                                 <h6>$ 19.99</h6>
                             </div>
                         </div>
-                        <div class="special-pizza-info">
+                        <div id="hidden-items-2" class="special-pizza-info" style="display: none;">
                             <div class="special-pizza">
                                 <h6>Classic pizza</h6>
                                 <p>Pizza comes with all tapping that you describe in this section</p>
@@ -111,7 +111,7 @@
                                 <h6>$ 19.99</h6>
                             </div>
                         </div>
-                        <button class="btn">Explore more</button>
+                        <button id="explore-more" class="btn">Explore more</button>
                     </div>
                 </div>
             </div>
@@ -120,7 +120,7 @@
             <div id="pizza-list" class="red-beech">
                 <div class="pizza-list-title">
                     <h2><span class="bg-blaze-orange">Pizza</span> of the month <br> The big <span class="bg-blaze-orange title-bird">bird</span></h2>
-                    <img src="img/hands-taking-pizza.png" alt="Pizza">
+                    <img src="img/hands_taking_pizza.png" alt="Pizza">
                 </div>
                 <div class="pizza-list-items">
                     <ul class="pizza-list-items-menu">
@@ -132,8 +132,8 @@
                         <li>Cheese Pizza</li>
                     </ul>
                     <div class="pizza-list-items-btn">
-                        <button class="btn">Order Online Now</button>
-                        <button class="btn">See Our Menu</button>
+                        <button class="btn"><a href="order.html" style="color: #FFFFFF;">Order Online Now</a></button>
+                        <button class="btn"><a href="#pizza-menu" style="color: #FFFFFF;">See Our Menu</a></button>
                     </div>
                 </div>
             </div>
@@ -146,10 +146,10 @@
                 <div class="contact-form">
                     <form class="contact-form-filed">
                         <ul class="contact-form-input cod-gray">
-                            <li><p>name</p><input type="text"></li>
-                            <li><p>e-Mail</p><input type="email"></li>
-                            <li><p>people number</p><input type="number"></li>
-                            <li><p>Date & time</p><input type="datetime"></li>
+                            <li><p>name</p><input type="text" required></li>
+                            <li><p>e-Mail</p><input type="email" required></li>
+                            <li><p>people number</p><input type="number" required></li>
+                            <li><p>Date & time</p><input type="datetime" required></li>
                         </ul>
                         <button class="btn cod-gray">Send Mail</button>
                     </form>
@@ -158,15 +158,6 @@
         </section>
     </main>
 
-    <script>
-        document.getElementById("menu-icon").addEventListener("click", function() {
-            const menuItems = document.getElementById("menu-items").style;
-            if (menuItems.display == "none") {
-                menuItems.display="flex";
-            } else {
-                menuItems.display="none";
-            }
-        })
-    </script>  
+    <script src="js/script.js" /> 
 </body>
 </html>

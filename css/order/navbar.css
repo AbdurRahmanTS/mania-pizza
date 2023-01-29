@@ -1,0 +1,19 @@
+@import url("../responsive/responsive_order.css");
+
+.order-nav {
+    background: #212121;
+    backdrop-filter: blur(1px);
+}
+
+.order-menu {
+    color: #FFFFFF;
+}
+
+.order-menu img {
+    width: 20%;
+    padding-right: 10%;
+}
+
+.order-menu a {
+    color: #FFFFFF;
+}

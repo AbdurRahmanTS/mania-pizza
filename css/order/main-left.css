@@ -1,0 +1,82 @@
+#order-main {
+    padding: 50px 0;
+    background: #FFFFFF url("../../img/pizza_slice.png") no-repeat;
+    background-position: 100% 100%;
+    background-size: 15%;
+}
+
+.order-menu-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 8%;
+}
+
+.order {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+.order-left {
+    width: 100%;
+    font-weight: 700;
+}
+
+
+.account, .location, .payment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-icon, .location-icon, .payment-icon {
+    width: 15%;
+    background: #000000;
+    border-radius: 50%;
+    margin-right: -5%;
+    z-index: 1;
+}
+
+.user-icon img, .location-icon img, .payment-icon img {
+    width: 50%;
+    padding: 20%;
+    display: block;
+    margin: auto;
+}
+
+.account-details, .location-details, .payment-details {
+    width: 100%;
+    background: #d9d9d996;
+    box-shadow: 10px 19px 30px 2px #00000040;
+    backdrop-filter: blur(1px);
+    border-radius: 10px;
+    padding: 5% 8%;
+}
+
+.account-details h1 {
+    font-size: 315%;
+    margin-bottom: 2%;
+}
+
+.account-footer {
+    display: flex;
+    justify-content: flex-start;
+    gap: 5%;
+    margin-top: 5%;
+    text-align: center;
+    font-size: 12px;
+}
+
+.account-footer p {
+    opacity: 0.7;
+    border: 1px solid #FF5B00;
+    border-radius: 5px;
+    padding: 2% 5%;
+}
+
+.account-footer a {
+    text-decoration: underline;
+}

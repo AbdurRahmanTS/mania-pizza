@@ -4,3 +4,7 @@
 @import url("menu.css");
 @import url("coupons.css");
 @import url("contact.css");
+
+@import url("order/navbar.css");
+@import url("order/main-left.css");
+@import url("order/main-right.css");
