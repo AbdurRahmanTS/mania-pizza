@@ -9,7 +9,7 @@
     }
 
     #menu-items {
-        width: 100%;
+        width: 100% !important;
         display: flex !important;
         flex-flow: row !important;
         align-items: center !important;

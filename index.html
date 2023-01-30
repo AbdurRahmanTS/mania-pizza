@@ -21,7 +21,7 @@
                         <img src="img/icon_menu.png" alt="Menu Icon">
                     </div>
                     <ul id="menu-items" style="display: none;">
-                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li><a href="#pizza-menu">Menu</a></li>
                         <li><a href="#coupons">Specials & Coupons</a></li>
                         <li><a href="#contact">Contact Us</a></li>
@@ -158,6 +158,22 @@
         </section>
     </main>
 
-    <script src="js/script.js" /> 
+    <script>
+        document.getElementById("menu-icon").addEventListener("click", function() {
+            const menuItems = document.getElementById("menu-items").style;
+            console.log(menuItems)
+            if (menuItems.display == "none") {
+                menuItems.display="flex";
+                menuItems.background = "#F4F4F4";
+            } else {
+                menuItems.display="none";
+            }
+        })
+
+        document.getElementById("explore-more").addEventListener("click", function() {
+            document.getElementById("hidden-items-1").style.display = "flex";
+            document.getElementById("hidden-items-2").style.display = "flex";
+        })
+    </script> 
 </body>
 </html>

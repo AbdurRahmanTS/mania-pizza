@@ -35,7 +35,7 @@
 }
 
 #menu-icon img {
-    width: 65px;
+    width: 45px;
 }
 
 #menu-items {
@@ -50,6 +50,7 @@
     right: 8%;
     background-color: #FFFFFF;
     margin-top: 15px;
+    padding: 0 2%;
 }
 
 #home-area {
